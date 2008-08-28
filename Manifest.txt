@@ -6,8 +6,11 @@ README.txt
 Rakefile
 config/hoe.rb
 config/requirements.rb
+lib/init.rb
+lib/rails/init.rb
 lib/route_name_for.rb
 lib/route_name_for/version.rb
+route_name_for.gemspec
 script/console
 script/destroy
 script/generate
