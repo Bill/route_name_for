@@ -1,9 +1,0 @@
-== 0.0.2 2008-08-28
-
-* 1 major enhancement:
-  * route_name_for now takes request.request_uri and (empty) environment hash, instead of :controller, :action. It was wrong to ever take :controller, :action since that combination is often ambiguous.
-
-== 0.0.1 2008-08-21
-
-* 1 major enhancement:
-  * Initial release

@@ -40,7 +40,7 @@ module RouteNameFor
 
   module Helpers
     def route_name_for( path, env)
-      r = ActionController::Routing::Routes.recognized_route( path, {})
+      r = ActionController::Routing::Routes.recognized_route( path, env)
       ActionController::Routing::Routes.named_routes.routes.invert[r].to_s
     end
   end

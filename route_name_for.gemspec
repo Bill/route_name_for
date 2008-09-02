@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{route_name_for}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bill Burcham"]
-  s.date = %q{2008-08-28}
+  s.date = %q{2008-09-01}
   s.description = %q{Rails helper to look up (named) route name given current request URI. Adds route_name_for method to controllers and views.}
   s.email = ["propeller@thoughtpropulsion.com"]
   s.extra_rdoc_files = ["History.txt", "License.txt", "Manifest.txt", "PostInstall.txt", "README.txt", "website/index.txt"]
